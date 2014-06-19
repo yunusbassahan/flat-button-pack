@@ -1,5 +1,7 @@
 ## Flat Button Pack
 
+CSS3 flat button pack - by Yunus BAŞŞAHAN
+
 Demo : [github.yunusbassahan.com/flat-button-pack/](http://github.yunusbassahan.com/flat-button-pack/)
 
 ================
