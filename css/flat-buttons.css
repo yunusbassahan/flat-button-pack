@@ -1,0 +1,95 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+/* ****************** **
+** Flat
+** ****************** */
+.flat {
+  font-family: 'Montserrat';
+  text-transform: uppercase;
+  padding: 10px;
+  border: none;
+  text-align: center;
+  outline: none;
+  cursor: pointer;
+  color: #fafafa;
+}
+.flat:active {
+  position: relative;
+  top: 2px;
+}
+.flat.grey {
+  background-color: #5a5a5a;
+  -webkit-box-shadow: 0px 3px 0px #484848;
+  -moz-box-shadow: 0px 3px 0px #484848;
+  box-shadow: 0px 3px 0px #484848;
+}
+.flat.grey:active {
+  -webkit-box-shadow: 0px 1px 0px #5a5a5a;
+  -moz-box-shadow: 0px 1px 0px #5a5a5a;
+  box-shadow: 0px 1px 0px #5a5a5a;
+}
+.flat.green {
+  background-color: #0aa699;
+  -webkit-box-shadow: 0px 3px 0px #08847a;
+  -moz-box-shadow: 0px 3px 0px #08847a;
+  box-shadow: 0px 3px 0px #08847a;
+}
+.flat.green:active {
+  -webkit-box-shadow: 0px 1px 0px #0aa699;
+  -moz-box-shadow: 0px 1px 0px #0aa699;
+  box-shadow: 0px 1px 0px #0aa699;
+}
+.flat.purple {
+  background-color: #6a598d;
+  -webkit-box-shadow: 0px 3px 0px #544770;
+  -moz-box-shadow: 0px 3px 0px #544770;
+  box-shadow: 0px 3px 0px #544770;
+}
+.flat.purple:active {
+  -webkit-box-shadow: 0px 1px 0px #6a598d;
+  -moz-box-shadow: 0px 1px 0px #6a598d;
+  box-shadow: 0px 1px 0px #6a598d;
+}
+.flat.navy-blue {
+  background-color: #22262e;
+  -webkit-box-shadow: 0px 3px 0px #1b1e24;
+  -moz-box-shadow: 0px 3px 0px #1b1e24;
+  box-shadow: 0px 3px 0px #1b1e24;
+}
+.flat.navy-blue:active {
+  -webkit-box-shadow: 0px 1px 0px #22262e;
+  -moz-box-shadow: 0px 1px 0px #22262e;
+  box-shadow: 0px 1px 0px #22262e;
+}
+.flat.pink {
+  background-color: #f35958;
+  -webkit-box-shadow: 0px 3px 0px #c24746;
+  -moz-box-shadow: 0px 3px 0px #c24746;
+  box-shadow: 0px 3px 0px #c24746;
+}
+.flat.pink:active {
+  -webkit-box-shadow: 0px 1px 0px #f35958;
+  -moz-box-shadow: 0px 1px 0px #f35958;
+  box-shadow: 0px 1px 0px #f35958;
+}
+.flat.blue {
+  background-color: #0090d9;
+  -webkit-box-shadow: 0px 3px 0px #0073ad;
+  -moz-box-shadow: 0px 3px 0px #0073ad;
+  box-shadow: 0px 3px 0px #0073ad;
+}
+.flat.blue:active {
+  -webkit-box-shadow: 0px 1px 0px #0090d9;
+  -moz-box-shadow: 0px 1px 0px #0090d9;
+  box-shadow: 0px 1px 0px #0090d9;
+}
+.flat.yellow {
+  background-color: #fdd01c;
+  -webkit-box-shadow: 0px 3px 0px #caa616;
+  -moz-box-shadow: 0px 3px 0px #caa616;
+  box-shadow: 0px 3px 0px #caa616;
+}
+.flat.yellow:active {
+  -webkit-box-shadow: 0px 1px 0px #fdd01c;
+  -moz-box-shadow: 0px 1px 0px #fdd01c;
+  box-shadow: 0px 1px 0px #fdd01c;
+}

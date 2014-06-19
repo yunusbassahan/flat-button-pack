@@ -1,0 +1,79 @@
+/* ****************** **
+** Flat
+** ****************** */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+
+$grey		: #5a5a5a;
+$green 		: #0AA699;
+$purple		: #6a598d;
+$navy-blue 	: #22262E;
+$pink 		: #F35958;
+$blue 		: #0090D9;
+$yellow 	: #FDD01C;
+
+@mixin flat-shadow($px, $color, $value) {
+	@if $value != "" {
+		-webkit-box-shadow: 0px $px 0px $color * $value;
+		   -moz-box-shadow: 0px $px 0px $color * $value;
+				box-shadow: 0px $px 0px $color * $value;
+	} @else {
+		-webkit-box-shadow: 0px $px 0px $color;
+		   -moz-box-shadow: 0px $px 0px $color;
+				box-shadow: 0px $px 0px $color;
+	}		
+}
+
+@mixin flat-create($color) {
+	background-color: $color;
+	@include flat-shadow(3px, $color, .8);
+
+	&:active {
+		@include flat-shadow(1px, $color, '');
+	}
+}
+
+.flat {
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	padding: 10px;
+	border: none;
+	text-align: center;
+	outline: none;
+	cursor: pointer;
+	color: #fafafa;
+
+	&:active {
+		position: relative;
+		top: 2px;
+	}
+
+	&.grey {
+		@include flat-create($grey);
+	}
+
+	&.green {
+		@include flat-create($green);
+	}
+
+	&.purple {
+		@include flat-create($purple);
+	}
+	
+	&.navy-blue {
+		@include flat-create($navy-blue);
+	}
+	
+	&.pink {
+		@include flat-create($pink);
+	}
+	
+	&.blue {
+		@include flat-create($blue);
+	}
+	
+	&.yellow {
+		@include flat-create($yellow);
+	}
+	
+}
