@@ -31,17 +31,40 @@ $yellow 	: #FDD01C;
 	&:active {
 		@include flat-shadow(1px, $color, '');
 	}
+
+	&:hover {
+		background-color: $color * .95;
+	}
 }
 
 .flat {
 	font-family: 'Montserrat';
 	text-transform: uppercase;
-	padding: 10px;
 	border: none;
 	text-align: center;
 	outline: none;
 	cursor: pointer;
 	color: #fafafa;
+
+	&.xs {
+		padding: 2px 9px;
+		font-size: 13px;
+	}
+
+	&.sm {
+		padding: 9px 12px;
+		font-size: 13px;
+	}
+
+	&.md {
+		padding: 12px 15px;
+		font-size: 13px;
+	}
+
+	&.lg {
+		padding: 15px 24px;
+		font-size: 15px;
+	}
 
 	&:active {
 		position: relative;

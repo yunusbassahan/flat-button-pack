@@ -5,12 +5,27 @@
 .flat {
   font-family: 'Montserrat';
   text-transform: uppercase;
-  padding: 10px;
   border: none;
   text-align: center;
   outline: none;
   cursor: pointer;
   color: #fafafa;
+}
+.flat.xs {
+  padding: 2px 9px;
+  font-size: 13px;
+}
+.flat.sm {
+  padding: 9px 12px;
+  font-size: 13px;
+}
+.flat.md {
+  padding: 12px 15px;
+  font-size: 13px;
+}
+.flat.lg {
+  padding: 15px 24px;
+  font-size: 15px;
 }
 .flat:active {
   position: relative;
@@ -27,6 +42,9 @@
   -moz-box-shadow: 0px 1px 0px #5a5a5a;
   box-shadow: 0px 1px 0px #5a5a5a;
 }
+.flat.grey:hover {
+  background-color: #555555;
+}
 .flat.green {
   background-color: #0aa699;
   -webkit-box-shadow: 0px 3px 0px #08847a;
@@ -37,6 +55,9 @@
   -webkit-box-shadow: 0px 1px 0px #0aa699;
   -moz-box-shadow: 0px 1px 0px #0aa699;
   box-shadow: 0px 1px 0px #0aa699;
+}
+.flat.green:hover {
+  background-color: #099d91;
 }
 .flat.purple {
   background-color: #6a598d;
@@ -49,6 +70,9 @@
   -moz-box-shadow: 0px 1px 0px #6a598d;
   box-shadow: 0px 1px 0px #6a598d;
 }
+.flat.purple:hover {
+  background-color: #645485;
+}
 .flat.navy-blue {
   background-color: #22262e;
   -webkit-box-shadow: 0px 3px 0px #1b1e24;
@@ -59,6 +83,9 @@
   -webkit-box-shadow: 0px 1px 0px #22262e;
   -moz-box-shadow: 0px 1px 0px #22262e;
   box-shadow: 0px 1px 0px #22262e;
+}
+.flat.navy-blue:hover {
+  background-color: #20242b;
 }
 .flat.pink {
   background-color: #f35958;
@@ -71,6 +98,9 @@
   -moz-box-shadow: 0px 1px 0px #f35958;
   box-shadow: 0px 1px 0px #f35958;
 }
+.flat.pink:hover {
+  background-color: #e65453;
+}
 .flat.blue {
   background-color: #0090d9;
   -webkit-box-shadow: 0px 3px 0px #0073ad;
@@ -82,6 +112,9 @@
   -moz-box-shadow: 0px 1px 0px #0090d9;
   box-shadow: 0px 1px 0px #0090d9;
 }
+.flat.blue:hover {
+  background-color: #0088ce;
+}
 .flat.yellow {
   background-color: #fdd01c;
   -webkit-box-shadow: 0px 3px 0px #caa616;
@@ -92,4 +125,7 @@
   -webkit-box-shadow: 0px 1px 0px #fdd01c;
   -moz-box-shadow: 0px 1px 0px #fdd01c;
   box-shadow: 0px 1px 0px #fdd01c;
+}
+.flat.yellow:hover {
+  background-color: #f0c51a;
 }
