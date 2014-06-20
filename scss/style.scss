@@ -1,5 +1,5 @@
 /* ****************** **
-** Modern CSS3 Buttons
+** Flat CSS3 Buttons
 ** Yunus BAŞŞAHAN
 ** yunusbassahan.com
 ** ****************** */
@@ -75,7 +75,14 @@ main {
 	}
 }
 
+.github-badge {
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	border: 0;
+}
+
 footer {
 	@extend header;
-	height: 50px;
+	height: 105px;
 }
