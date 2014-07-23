@@ -6,7 +6,7 @@ Demo : [github.yunusbassahan.com/flat-button-pack/](http://github.yunusbassahan.
 
 ================
 
-## Normal Size
+## Small Size
 
 ```html
 <button class="flat xs grey">Grey</button>
@@ -18,7 +18,7 @@ Demo : [github.yunusbassahan.com/flat-button-pack/](http://github.yunusbassahan.
 <button class="flat xs yellow">Yellow</button>
 ```
 
-## Small Size
+## Normal Size
 
 ```html
 <button class="flat sm grey">Grey</button>
